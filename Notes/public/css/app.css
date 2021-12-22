@@ -1,0 +1,54 @@
+:root {
+    --color1: #094d74;
+    --color2: #759cd8;
+    --color3: #9cb9d1;
+    --color4: #cfdaec;
+    --color5: #eef0f6;
+}
+
+.header {
+    background: var(--color3);
+}
+
+.header__link {
+    color: var(--color1);
+}
+
+.header__link:hover {
+    color: #fff;
+    background: var(--color1);
+}
+
+.hero {
+    background: var(--color5);
+}
+
+.hero__btn {
+    background: var(--color3);
+    color: var(--color1);
+}
+
+.hero__btn:hover {
+    background: var(--color1);
+    color: #fff;
+}
+
+.home__image {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.list__modal {
+    display: none;
+}
+
+.list__modal.active {
+    display: block;
+}
+
+.footer {
+    background: var(--color5);
+    margin-bottom: 0 !important;
+}
